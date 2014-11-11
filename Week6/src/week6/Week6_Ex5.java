@@ -3,7 +3,6 @@ package week6;
 import java.util.Arrays;
 public class Week6_Ex5 
 {
-
 	public static void main(String[] args) 
 	{
 		System.out.println("Program to sort an integer array without using API methods\n");
