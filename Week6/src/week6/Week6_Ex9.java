@@ -4,7 +4,7 @@ public class Week6_Ex9
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("Program which identifies greatest number out of 3\n");
+		System.out.println("Program to find greatest in 3 numbers\n");
 		
 		//user enters values
 		int num1 = Console.askInt("Enter first number: ");

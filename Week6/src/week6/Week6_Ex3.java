@@ -5,7 +5,7 @@ public class Week6_Ex3
 	// check if number is palindrome 
 	public static void main(String[] args) 
 	{
-		System.out.println("Program to see if entered number is a palindrome\n");
+		System.out.println("Program to check if a number is a palindrome\n");
 		
 		//user inputs a number
 		int number = Console.askInt("Enter a number: ");

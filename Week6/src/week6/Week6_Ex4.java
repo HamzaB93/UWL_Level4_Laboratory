@@ -4,7 +4,7 @@ public class Week6_Ex4
 {
     public static void main(String[] args) 
     {
-    	System.out.println("Program to find if a number is power of 2\n");
+    	System.out.println("Program to find out if a number is power of 2\n");
 		
     	//user inputs a number
     	int number = Console.askInt("Enter a number: ");

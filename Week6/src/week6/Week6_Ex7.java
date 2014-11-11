@@ -4,8 +4,7 @@ public class Week6_Ex7
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("Program printing the Fibinacci series"
-				+ "to a given number");
+		System.out.println("Program to print Fibonacci series up to given number\n");
 		
 		int number = Console.askInt("Enter a number: ");
 		

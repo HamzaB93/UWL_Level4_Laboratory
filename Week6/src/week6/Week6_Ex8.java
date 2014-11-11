@@ -4,7 +4,7 @@ public class Week6_Ex8
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("Program to calculate the factorial of a number");
+		System.out.println("Program to calculate factorial of an integer number\n");
 		
 		int number = Console.askInt("Enter a number: ");
 		
