@@ -6,10 +6,10 @@ public class Week6_Ex6
     {
     	System.out.println("Program to reverse and string without using String buffer\n");
 		
-    	// Ask for an input
+    	//Ask for a string input
     	String word = Console.askString("Enter a word or sentece: ");
 		
-    	// word is revered and then printed
+    	//Word is revered and then printed (same method used previously in Week6_Ex3)
     	String reverse = new StringBuilder(word).reverse().toString();
     	System.out.println("Your word or sentence: \n" + word + "Backwards: " + reverse);
     }

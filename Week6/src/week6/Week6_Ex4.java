@@ -6,14 +6,16 @@ public class Week6_Ex4
     {
     	System.out.println("Program to find out if a number is power of 2\n");
 		
-    	//user inputs a number
+    	//User inputs a number
     	int number = Console.askInt("Enter a number: ");
 	
-    	//checking if the number is a power of 2
+    	//Checking if the number is a power of 2
+    	//If the number variable and the number -1 eqaual to 0, then number is a power of 2
     	if ((number & (number - 1 )) == 0)
     	{
     		System.out.println(number + " is a power of 2");
     	}
+    	//Or else it is not a power of 2
     	else
     	{
     		System.out.println(number + " is not a power of 2");
