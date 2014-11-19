@@ -8,12 +8,12 @@ public class Week6_Ex7
 		
 		//Asking the user to input they want the Fibonacci to end at
 		int num = Console.askInt("Enter a number: "); 
-		//Declaring varaibles
+		//Declaring variables
 		int f1; 
 		int f2 = 0; 
 		int f3 = 1;
 	
-		//When i = 1 and until i is greater or equal to the number it will end at, add 1
+		//When i = 1 and until i is less or equal to the number it will end at, add 1
 		//i acts as a count
 		for(int i=1;i<=num;i++)
 		{

@@ -12,10 +12,10 @@ public class Week6_Ex8
 		//Declaring a variable fact for later use
 		int fact = 1;
 		
-		//When c = 1, until c is greater or equal to the input, add 1 to c
+		//When c = 1, until c is less than or equal to the input, add 1 to c
 		for (int c = 1 ; c <= number; c++)
 		{
-			fact = fact*c; // 1* 1, c will increment up 1 every time it loops until c is greater or = to input
+			fact = fact*c; // 1* 1, c will increment up 1 every time it loops until c is less or = to input
 		}
 		System.out.println("The factorial of " + number + " is: " + fact);
 	}

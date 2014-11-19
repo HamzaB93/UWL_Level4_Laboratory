@@ -1,8 +1,0 @@
-#include <stdio.h>
-
-int main()
-{
-  int array[5] = {5, 3, 2, 1, 4};
-
-  printf("My array has these number: %d\n",array[5]);
-}
