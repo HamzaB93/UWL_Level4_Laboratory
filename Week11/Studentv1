@@ -1,0 +1,53 @@
+#lang racket
+
+;;;Program to enroll students
+
+;Creating a database using a hash table
+(define db (make-hash))
+
+;New function taking an id and student number
+(define (new-student id snum)
+  ;Will insert them into a hash table
+  (hash-set! db id snum))
+
+;Creating a student with properties in a list
+(define stud1
+  '((first-name "Hamza") (second-name "Bhatti")
+    (age 21) (course "Computer Science")
+    (start-year 2013)))
+
+;Creating second student
+(define stud2
+  '((first-name "David") (second-name "Brown")
+    (age 25) (course "Drama")
+    (start-year 2012)))
+
+;The new student will have an id of 1 and identified as stud1
+(new-student 1 stud1)
+(new-student 2 stud2)
+
+;Creating function to find a student with a certain attribute
+(define (find-student-v1 id field)
+  (cond
+    ;If when an id is entered, find the first name that 
+    ; corresponds to it
+    ((eq? field 'first-name)
+     ;Using associative table find the first name 
+     ; that shares the entered id
+     (cadr (assq 'first-name (hash-ref db id))))
+    ;The rest of these "find" conditions work the same as the first
+    ((eq? field 'second-name)
+     (cadr (assq 'second-name (hash-ref db id))))
+    ((eq? field 'age)
+     (cadr (assq 'age (hash-ref db id))))
+    ((eq? field 'course)
+     (cadr (assq 'course (hash-ref db id))))
+    ((eq? field 'start-year)
+     (cadr (assq 'start-year (hash-ref db id))))))
+
+;Find the student that has an id of 1 and print the students
+; second name
+(find-student-v1 1 'second-name)
+
+;Find the student that has an id of 2 and print the course
+(find-student-v1 2 'course)
