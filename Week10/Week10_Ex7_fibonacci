@@ -1,0 +1,10 @@
+#lang racket
+;;;Program to print Fibonacci series up to given number
+;WORKS sort of, recursive version which prints the nth number
+
+(define (fibonacci num)
+  (if (<= num 2)
+      1
+      (+ (fibonacci (- num 1)) (fibonacci (- num 2)))))
+
+(fibonacci 10)

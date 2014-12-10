@@ -1,0 +1,21 @@
+#lang racket
+
+;;;Program to check if a number is a palindrome
+
+;'("l" "i" "s" "t")
+;(foldl cons '() '("l" "i" "s" "t"))))
+
+;(define (list-reverse a)
+;  (reverse a))
+;Calling on this function does work
+
+(define (reverse r)
+  (foldl cons '() r))
+
+(define (palindrome l)
+  (cond
+    ((eq? l(reverse l)) 
+            ("Palindrome"))
+    (else "Not palindrome")))
+
+;(palindrome '(1 0 1))

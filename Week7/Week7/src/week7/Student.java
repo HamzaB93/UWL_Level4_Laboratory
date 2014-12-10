@@ -74,18 +74,29 @@ public class Student
 		setFirstName(Console.askString("Enter a First name: "));
 		setSecondName(Console.askString("Enter a Second name: "));
 		setStudenId(Console.askInt("Enter the Student ID: "));
-		setCourse(Console.askString("Enter the course namet: "));
+		setCourse(Console.askString("Enter the course name: "));
 		setLevel(Console.askInt("Enter the course level: "));
 		setStartDate(Console.askInt("Enter the start date: "));
 		setEndDate(Console.askInt("Enter the end date: "));
+	}
+	
+	public String toString()
+	{
+		return "First name: " + firstName + ", Second Name: " + secondName + "Student ID: " + studentId +
+				", Course: " + course + ", Level : " + level + ", Start Date: " + startDate 
+				+ ", End Date: " + endDate;
 	}
 	
 	// Print method
 	public void print()
 	{
 		System.out.println("Student enrolment: \n");
-		System.out.println("First name: " + firstName + ", Second Name: " + secondName + "Student ID: " + studentId +
-					", Course: " + course + ", Level : " + level + ", Start Date: " + startDate 
-					+ ", End Date: " + endDate);
+		System.out.println("First name: " + firstName); 
+		System.out.println("Second Name: " + secondName);
+		System.out.println("Student ID: " + studentId );
+		System.out.println("Course: " + course );
+		System.out.println("Level : " + level);
+		System.out.println("Start Date: " + startDate);
+		System.out.println("End Date: " + endDate);
 	}
 }

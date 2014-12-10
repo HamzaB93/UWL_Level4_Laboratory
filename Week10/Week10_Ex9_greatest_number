@@ -1,0 +1,10 @@
+#lang racket
+
+;;;Program to find the greatest out of 3 numbers
+;;WORKS
+
+(define(greater-than a b c)
+  (cond
+    [ (and(> a b)(> a c)) "First number is greatest"]
+    [ (and(> b a)(> b c)) "Second number is greatest"]
+    [ else "Third number is greatest"]))
