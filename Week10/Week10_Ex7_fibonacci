@@ -3,8 +3,12 @@
 ;WORKS sort of, recursive version which prints the nth number
 
 (define (fibonacci num)
+  ;If number is less then or = 2, display 1
   (if (<= num 2)
       1
+      ;Otherwise fibonacci starts with num - 2
+      ; then add that to fibonacci = num - 1
+      ; until it is num is reached
       (+ (fibonacci (- num 1)) (fibonacci (- num 2)))))
 
-(fibonacci 10)
+

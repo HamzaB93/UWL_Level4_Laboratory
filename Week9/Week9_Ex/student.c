@@ -19,6 +19,7 @@ int main()
 
   struct Student s[n];
   
+  //Details for the students are entered and stored
   printf("Enter the student details\n");
   for (i = 0; i < n ; ++i)
   {
@@ -38,7 +39,7 @@ int main()
     // s[i].endYear = s[i].startYear + 3;
   }  
 
-
+  //In every array space show that value then increment
   printf("Here are all the entries\n");
   for(i = 0; i < n ; i++)
   {  
