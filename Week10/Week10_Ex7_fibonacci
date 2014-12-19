@@ -1,6 +1,6 @@
 #lang racket
 ;;;Program to print Fibonacci series up to given number
-;WORKS sort of, recursive version which prints the nth number
+;WORKS, recursive version which prints the nth number
 
 (define (fibonacci num)
   ;If number is less then or = 2, display 1
