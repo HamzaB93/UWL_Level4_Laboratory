@@ -1,8 +1,0 @@
-#lang racket
-
-;;;Program to reverse string
-;;WORKS?
-
-(define (string-reverse s)
-  (list->string (reverse (string->list s))))
-
