@@ -1,11 +1,10 @@
-package adsADT;
+package adsSearching;
 
 public class Person 
 {
 	/*
 	 *  Class declaration
 	 */
-	
 	
 	// Data representation should be private
 	private int age, yearOfBirth;

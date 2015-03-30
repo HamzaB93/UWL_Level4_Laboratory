@@ -1,4 +1,4 @@
-package adsADT;
+package adsSearching;
 
 public class Main 
 {
@@ -42,5 +42,8 @@ public class Main
 		hamza.changeWeight(10);
 		// Details with new weight
 		System.out.println(hamza.toString() + "\n");
+		
+		
+		
 	}
 }
