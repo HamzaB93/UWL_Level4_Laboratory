@@ -1,6 +1,6 @@
-package adsSearching;
+package adsJavaExercises;
 
-public class Main 
+public class PersonTest 
 {
 	/*
 	 * Person class application code
@@ -11,10 +11,10 @@ public class Main
 		////////// Constructor //////////
 		
 		// Constructing people using Person class
-		Person hamza = new Person("Hamza Bhatti", 21, 1993, "British", 1.77, 11.00);
-		Person john = new Person("John Doe", 28, 1988, "American", 1.80, 9.00);
-		Person homer = new Person("Homer Simpson", 30, 1970, "American", 1.90, 17);
-		Person peter = new Person("Peter Griffin", 30, 1970, "American", 1.90, 20);
+		PersonADT hamza = new PersonADT("Hamza Bhatti", 21, 1993, "British", 1.77, 11.00);
+		PersonADT john = new PersonADT("John Doe", 28, 1988, "American", 1.80, 9.00);
+		PersonADT homer = new PersonADT("Homer Simpson", 30, 1970, "American", 1.90, 17);
+		PersonADT peter = new PersonADT("Peter Griffin", 30, 1970, "American", 1.90, 20);
 		
 		////////// Accessor //////////
 		

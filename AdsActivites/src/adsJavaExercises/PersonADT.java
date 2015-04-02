@@ -1,6 +1,6 @@
-package adsSearching;
+package adsJavaExercises;
 
-public class Person 
+public class PersonADT 
 {
 	/*
 	 *  Class declaration
@@ -14,7 +14,7 @@ public class Person
 	
 	////////// Constructor //////////
 	
-	public Person (String fullName, int age, int yearOfBirth, 
+	public PersonADT (String fullName, int age, int yearOfBirth, 
 			String nationality, double height,
 			double weight)
 	{	// Construct a person that has an age, year of birth,
@@ -29,7 +29,7 @@ public class Person
 
 	////////// Accessor //////////
 	
-	public int compareTo (Person that)
+	public int compareTo (PersonADT that)
 	{
 		// When comparing, return 1 if this person is older than,
 		// that person, return -1 if this person is younger than,

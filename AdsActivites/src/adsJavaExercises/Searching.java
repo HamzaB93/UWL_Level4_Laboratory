@@ -1,4 +1,4 @@
-package adsSearching;
+package adsJavaExercises;
 
 public class Searching 
 {
@@ -13,14 +13,14 @@ public class Searching
 		int right = 3;
 		
 		// Constructed an array which holds a max of 4 values
-		Person [] people = new Person [4];
+		PersonADT [] people = new PersonADT [4];
 		
 		
 		// Populating array in certain indexes with objects using Person class
-		people [0] = new Person("Hamza Bhatti", 21, 1993, "British", 1.77, 11.00);
-		people [1] = new Person("John Doe", 28, 1988, "American", 1.80, 9.00);
-		people [2] = new Person("Homer Simpson", 30, 1970, "American", 1.90, 17);
-		people [3] = new Person("Peter Griffin", 30, 1970, "American", 1.90, 20);
+		people [0] = new PersonADT("Hamza Bhatti", 21, 1993, "British", 1.77, 11.00);
+		people [1] = new PersonADT("John Doe", 28, 1988, "American", 1.80, 9.00);
+		people [2] = new PersonADT("Homer Simpson", 30, 1970, "American", 1.90, 17);
+		people [3] = new PersonADT("Peter Griffin", 30, 1970, "American", 1.90, 20);
 		
 		// Printing all the objects found in the array
 		System.out.println("Printing all the objects in the array\n");
@@ -28,16 +28,17 @@ public class Searching
 			System.out.println(people[i]);
 
 		// Calling linear search algorithm
-		int myMethod = linearSearch(people[4], people, left, right);
+		int myMethod = linearSearch(people[3], people, left, right);
 		
-		System.out.println(myMethod);
 		// Printing return value from the linearSearch method
+		
 		if (myMethod != 0)
 			System.out.println("Searched array is: " + people[myMethod]);
 		else
 			System.out.println("No such target");
 				
 	}
+	
 	// Linear Search algorithm
 	static int linearSearch(Object target, Object[] a, int left,
 			int right)
