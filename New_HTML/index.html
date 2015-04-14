@@ -1,0 +1,100 @@
+<!-- HMTML page using Bootstrap front end framework -->
+
+<!DOCTYPE html>
+<html lang = "eng">
+
+<!-- head element is a container for meta data/ data about the data -->
+<head>
+<meta charset = "UTF-8">
+<title>Laboratory: HTML Using Bootstrap</title>
+
+<!-- Importing the use of bootstrap and jquery -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<!-- Css section of HTML -->
+<style type="text/css">
+	body{
+		padding-top: 70px;
+	}
+</style>
+</head>
+
+<!-- body tag stating what is in the website -->
+<body>
+
+<!-- nav for defining navigation around the website -->
+<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+	
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="container">
+		<!-- Creating the button arrangement -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Hamza Bhatti</a>
+		</div>
+		
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="nav navbar-nav">
+				<!-- li defines list items, active for current page, a for hyper link -->
+				<li class="active"><a href="http://www.tutorialrepublic.com" target="_blank">Home</a></li>
+				<li><a href="http://www.tutorialrepublic.com/about-us.php" target="_blank">About Me</a></li>
+				<li><a href="http://www.tutorialrepublic.com/contact-us.php" target="_blank">My Studies</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container">
+	
+	<!-- Main heading and info area -->
+	<div class="jumbotron">
+		<h1>Welcome To My Bootstrap Website</h1>
+		<p>The purpose of this website is to demonstrate the use of the Bootstrap front end framework to produce a professional website.</p>
+		<p><a href="http://www.tutorialrepublic.com" target="_blank" class="btn btn-success btn-lg">Get started</a></p>
+	</div>
+	
+	<!-- Sections where other information will be displayed -->
+	<div class="row">
+		<div class="col-xs-4">
+			<h2>Computer Science</h2>
+			<p>The course I am currently Studying is Computer Science. A variety of different modules have been taught. From Computer Architecture to Programming and Software Engineering are just a few of the great modules taught. Follow the link to find out more.</p>
+			<!-- Link to My Studies page -->
+			<p><a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+		</div>
+		
+		<div class="col-xs-4">
+			<h2>UWL</h2>
+			<p>Currently I am studying at University Of West London. With it's new name is current on-site development and it's 95% graduate job rate, it is a great place to learn. Follow the link to the UWL website and find out about the many different courses that are offered.</p>
+			<!-- Link to UWL website -->
+			<p><a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+		</div>
+		
+		<div class="col-xs-4">
+			<h2>Bootstrap</h2>
+			<p>This website was built using the front end framework called Bootstrap. Many websites today are using this great framework to create some of the most professional websites for great viewing experience on many different devices. Click the link to be taken to the Bootstrap website.</p>
+			<!-- Link to bootstrap website -->
+			<p><a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+		</div>
+	</div>
+	<hr>
+	
+	<!-- Acts as a footer -->
+	<div class="row">
+		<div class="col-xs-12">
+			<footer>
+				<p>&copy; Copyright 2015</p>
+			</footer>
+		</div>
+	</div>
+</div>
+</body>
+</html> 
