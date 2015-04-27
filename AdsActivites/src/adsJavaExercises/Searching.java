@@ -27,7 +27,10 @@ public class Searching
 		for (int i = 0; i < people.length; i++)
 			System.out.println(people[i]);
 
+		System.out.println("");
+		
 		// Calling linear search algorithm
+		System.out.println("Searching for Peter in index 3: ");
 		int myMethod = linearSearch(people[3], people, left, right);
 		
 		// Printing return value from the linearSearch method
