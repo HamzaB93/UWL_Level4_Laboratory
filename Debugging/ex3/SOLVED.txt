@@ -1,0 +1,1 @@
+ex3 solved, problem with an array holding the maximum value that ubunut can hold.
