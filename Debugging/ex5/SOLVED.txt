@@ -1,0 +1,1 @@
+SOLVED, ex5, memory leak gone after uncommenting xmlFreeDoc
