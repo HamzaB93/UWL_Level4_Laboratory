@@ -1,0 +1,1 @@
+SOLVED, ex6 had xmlfreedoc in wrong place.
